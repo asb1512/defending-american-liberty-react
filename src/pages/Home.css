@@ -1,0 +1,23 @@
+.home-cntr {
+  
+}
+
+.home-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.dal-slogan {
+  width: 50%;
+  margin: 5rem 0 0 50%;
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 8rem;
+  color: rgb(37, 30, 23);
+}
+
+.dal-slogan-important {
+  color: rgb(224, 207, 189);
+}
