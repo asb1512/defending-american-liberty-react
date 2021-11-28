@@ -3,6 +3,8 @@ import './Navbar.css';
 
 import { Squash as Hamburger } from 'hamburger-react';
 
+import logo from '../images/dfa-logo-white.png';
+
 
 
 export default function Navbar() {
@@ -11,6 +13,12 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
+
+      <img
+        src={logo}
+        alt="Defending American Liberty"
+        className="dal-logo-white"
+      />
 
       <div className="hamburger-cntr">
         <Hamburger
