@@ -13,13 +13,13 @@ export default function Home() {
   const parallax = useRef(null);
 
   return (
-    <div className="home-cntr">
+    // <div className="home-cntr">
 
-      <img
-        src={bg}
-        alt="Defending American Liberty"
-        className="home-bg"
-      />
+    //   <img
+    //     src={bg}
+    //     alt="Defending American Liberty"
+    //     className="home-bg"
+    //   />
 
       <Parallax
         ref={parallax}
@@ -39,6 +39,6 @@ export default function Home() {
         </ParallaxLayer>
 
       </Parallax>
-    </div>
+    // </div>
   )
 }
