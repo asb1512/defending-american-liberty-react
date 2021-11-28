@@ -1,4 +1,26 @@
 .navbar {
-  width: 100%;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  z-index: 10;
+}
+
+.hamburger-cntr {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: end;
+  align-self: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-cntr {
+    margin-right: 5vw;
+  }
 }
