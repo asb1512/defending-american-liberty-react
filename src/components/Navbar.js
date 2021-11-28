@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 
 import { Squash as Hamburger } from 'hamburger-react';
+import NavOptions from './NavOptions';
 
 import logo from '../images/dfa-logo-white.png';
 
@@ -12,6 +13,7 @@ export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
 
   return (
+    <>
     <div className="navbar">
 
       <img
@@ -27,5 +29,8 @@ export default function Navbar() {
         />
       </div>
     </div>
+
+    <NavOptions toggled={isOpen} />
+    </>
   )
 }
