@@ -1,25 +1,14 @@
-.home-cntr {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+.home-page-1 {
 
-.home-bg {
-  background-image: url("../images/home/dal-bg.jpg");
-  background-repeat: no-repeat;
-  /* background-attachment: fixed;
-  background-position: center bottom; */
 }
 
 .dal-slogan {
   max-width: 90%;
-  width: 50%;
+  margin: auto;
   font-family: 'Playfair Display', serif;
-  font-size: 8rem;
+  font-size: 4rem;
   font-weight: 600;
-  line-height: 8rem;
+  line-height: 4rem;
   color: rgb(37, 30, 23);
 }
 
@@ -27,9 +16,9 @@
   color: rgb(224, 207, 189);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .dal-slogan {
-    width: 90%;
+    max-width: 90%;
     font-size: 4rem;
   }
 }
