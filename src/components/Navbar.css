@@ -2,13 +2,27 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 10vh;
-  background: black;
+  width: 96vw;
+  height: 9vh;
+  margin: 1vh 2vw;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
   z-index: 10;
+}
+
+.dal-logo-white {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: start;
+  align-self: center;
+  height: 7vh;
+  margin-left: 5vw;
 }
 
 .hamburger-cntr {
