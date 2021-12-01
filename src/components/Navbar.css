@@ -2,9 +2,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 96vw;
+  width: 90vw;
   height: 9vh;
-  margin: 1vh 2vw;
+  margin: 2vh 5vw;
   background: rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -56,12 +56,13 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   color: #fff;
-  display: grid;
-  grid-template-columns: 100%;
+  display: block;
 }
 
 .nav-options-list > div {
+  align-self: center;
   width: 100%;
+  height: auto;
   padding: .85rem 0 .85rem 1rem;
 }
 

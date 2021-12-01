@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 export default function NavOptions(props) {
 
   const navOptionsStyle = useSpring({
-    height: props.toggled ? '38vh' : '0vh',
+    height: props.toggled ? '18rem' : '0rem',
   })
 
   return (
