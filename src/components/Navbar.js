@@ -4,7 +4,7 @@ import './Navbar.css';
 import { Squash as Hamburger } from 'hamburger-react';
 import NavOptions from './NavOptions';
 
-import logo from '../images/dfa-logo-white.png';
+import logo from '../images/dfa-logo-monochrome.png';
 
 
 
